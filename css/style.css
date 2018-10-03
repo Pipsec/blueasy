@@ -40,6 +40,7 @@ body {
 }
 
 .navbar-brand img {
+    width: 50%%;
     padding: 55px 0;
 }
 
@@ -182,7 +183,6 @@ a.active {
     color: #fff;
     font-size: 72px;
     text-align: center;
-    font-weight: 100;
 }
 
 .thumbs-row a:after {
@@ -203,8 +203,178 @@ a.active {
     line-height: 270px;
 }
 
+
+
 .thumbs-row, .col-md-3 {
     margin-bottom: 30px;
 }
 
 
+.grey {
+    background-color: #515f67;
+    padding: 80px 0;
+}
+
+.spn-heading {
+    position: relative;
+    margin: 0;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 52px;
+}
+
+.spn-heading:after {
+    content: '___';
+    position: absolute;
+    color: #fff;
+    margin-left: -355px;
+    padding-top: 10px;
+}
+
+.col-md-5 p{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-ghost {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #353f46;
+    border: 2px solid #353f46;
+    transition: 0.3s;
+    padding: 15px 40px;
+}
+
+.btn-ghost:hover {
+    text-decoration: none;
+    color: #fff;
+    border-color: #fff;
+}
+
+.twitter {
+    background-color: #4bcaff;
+    padding: 80px 0;
+}
+
+.spn-twitter {
+    position: relative;
+    margin: 0;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 52px;
+}
+
+.spn-twitter:after {
+    content: '___';
+    position: absolute;
+    color: #fff;
+    margin-left: -130px;
+    padding-top: 10px;
+}
+
+.cookie {
+    color: #fff;
+    font-size: 28px;
+}
+
+.col-md-1 a i {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+.john-doe {
+    background: url(../images/john-doe.png) no-repeat 0 0;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.spn-john {
+    position: relative;
+    margin: 0;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 0 0 52px 15px;
+}
+
+.spn-john:after {
+    content: '___';
+    position: absolute;
+    color: #fff;
+    margin-left: -290px;
+    padding-top: 10px;
+}
+
+.social-text {
+    padding-bottom: 38px;
+}
+
+.col-md-6 p {
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: px;
+}
+
+.social a i {
+    border: 2px solid #FFF;
+    color: #fff;
+    font-size: 30px;
+    padding: 19px 19px;
+    margin: 40px 20px 0 0;
+}
+
+.testimonials {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.spn-white {
+    position: relative;
+    margin: 0;
+    display: block;
+    color: #1e1e1e;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 0 0 52px 15px;
+}
+
+.spn-white:after {
+    content: '___';
+    position: absolute;
+    color: #1e1e1e;
+    margin-left: -217px;
+    padding-top: 10px;
+}
+
+.wafer {
+    color: black;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.col-md-11 a {
+   color: #4bcaff;
+    font-size: 14px;
+    text-decoration: none;
+}
