@@ -378,3 +378,91 @@ a.active {
     font-size: 14px;
     text-decoration: none;
 }
+
+.panel-footer {
+    background: url('../images/footer.png') no-repeat 0 0;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.spn-footer {
+    position: relative;
+    margin: 0;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 0 0 52px 15px;
+}
+
+.spn-footer:after {
+    content: '___';
+    position: absolute;
+    color: #fff;
+    margin-left: -140px;
+    padding-top: 10px;
+}
+
+.col-md-offset-1 {
+    padding-top: 17px;
+}
+
+.col-md-offset-1 p {
+    color: #dee0e2;
+}
+
+.form-group label {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.form-group textarea {
+    background-color: transparent;
+    height: 220px;
+}
+
+.form-group input {
+    background-color: transparent;
+}
+
+.col-md-4 button {
+    margin-top: 40px;
+    text-transform: uppercase;
+    background-color: #4bcaff;
+    color: black;
+    padding: 24px 153px;
+    border: 2px solid #4bcaff;
+    transition: 0.3s;
+}
+
+.col-md-4 button:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+footer{
+    background-color: #353f47;
+    padding: 80px 0;
+}
+
+.list-inline {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+
+.col-md-4 li a {
+    color: #4b5860;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.col-md-4 li:before {
+    content: '|';
+    color: #4b5860;
+}
+
+.col-md-4 li:first-child:before {
+    content: "";
+}
